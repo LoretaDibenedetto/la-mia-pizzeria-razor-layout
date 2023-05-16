@@ -1,0 +1,46 @@
+
+
+html {
+    font-size: 14px;
+  
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+    background-color: #262625;
+    /*  background-image: url('../NewFolder/ssspot.svg');*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.bgi {
+    background-color: #595247;
+    
+}
+
+
+footer {
+   
+
+    width:100%;
+  
+  
+   
+    
+}
+.w {
+    height: 300px;
+    background-color: #595247;
+}
