@@ -23,6 +23,11 @@ namespace LaMiaPizzeria.Controllers
             return View();
         }
 
+        public IActionResult ChiSiamo()
+        {
+            return View("ChiSiamo");
+        }
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
