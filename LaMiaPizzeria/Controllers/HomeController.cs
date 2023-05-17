@@ -25,7 +25,7 @@ namespace LaMiaPizzeria.Controllers
 
         public IActionResult ChiSiamo()
         {
-            return View("ChiSiamo");
+            return View();
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
